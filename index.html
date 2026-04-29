@@ -9,6 +9,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<link rel="icon" type="image/x-icon" href="/logo.png">
 
 <style>
 body{
@@ -69,7 +70,7 @@ body{
 <div class="bg"></div>
 
 <!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/234XXXXXXXXXX"
+<a href="https://whatsapp.com/dl/"
    class="fixed bottom-5 right-5 bg-green-500 px-5 py-3 rounded-full z-50 shadow-xl">
    💬 WhatsApp
 </a>
@@ -78,7 +79,19 @@ body{
 <header class="fixed top-0 w-full glass z-50">
   <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
 
-    <h1 class="font-bold">Pius Udomah</h1>
+    <div class="flex items-center gap-3">
+  
+  <img 
+    src="logo.png" 
+    alt="Logo"
+    class="h-10 md:h-12 object-contain"
+  />
+
+  <span class="hidden md:block font-semibold text-white tracking-wide">
+    Pius Udomah
+  </span>
+
+</div>
 
     <nav class="nav-links hidden md:flex gap-6 text-gray-300">
       <a href="#about">About</a>
@@ -96,7 +109,7 @@ body{
   <div class="absolute inset-0">
     <img 
       src="/04.jpeg"
-      class="w-full h-full object-cover opacity-40 blur-[1px] scale-110"
+      class="w-full h-full object-cover opacity-60 blur-[1px] scale-110"
     />
     <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black"></div>
   </div>
@@ -142,10 +155,10 @@ body{
       <div class="absolute w-72 h-72 bg-blue-500 blur-3xl opacity-20 rounded-full"></div>
 
       <img 
-        src="/02.jpeg"
-        alt="Pius Udomah"
-        class="w-80 h-80 object-cover rounded-2xl border border-gray-700 shadow-2xl relative z-10"
-      />
+  src="/02.jpeg"
+  alt="Pius Udomah"
+  class="w-full h-100 md:w-80 md:h-80 object-cover rounded-2xl border border-gray-700 shadow-2xl relative z-10"
+/>
 
     </div>
 
@@ -264,7 +277,7 @@ body{
        WhatsApp Me
     </a>
 
-    <a href="mailto:youremail@gmail.com"
+    <a href="udomahpius5@gmail.com"
        class="border px-6 py-3 rounded-xl">
        Email Me
     </a>
